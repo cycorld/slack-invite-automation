@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   // your community or team name to display on join page.
   community: process.env.COMMUNITY_NAME || 'YOUR-TEAM-NAME',
